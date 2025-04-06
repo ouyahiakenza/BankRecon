@@ -1,0 +1,5 @@
+Extract the following information from the attached receipt:
+- name: The name of the restaurant.
+- address: The full address of the restaurant as written on the receipt.
+- date: The date of the transaction (if available) in YYYY-MM-DD format; otherwise, leave blank.
+- total: The total amount due, as indicated on the "TOTAL" line of the receipt. Ensure the extracted amount uses a dot '.' as the decimal separator (e.g., 10.25, not 10,25). Do NOT calculate the total from subtotal and tax, extract it directly from the line labeled "TOTAL".

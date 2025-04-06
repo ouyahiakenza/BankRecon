@@ -1,0 +1,6 @@
+mistralai
+python-dotenv
+streamlit
+fuzzywuzzy
+openpyxl
+scikit-learn
